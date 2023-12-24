@@ -25,6 +25,11 @@ PROMPT_COMMAND=\"share_history; $PROMPT_COMMAND\"" >> ~/.bashrc
 export OPENAI_KEY="your openai key"
 ```
 
+## install
+```
+wget https://github.com/geoff-yoon-dev/smart-ass/releases/download/v0.0.1/smartass
+```
+
 ## build 
 ```
 go build -0 smartass
@@ -32,7 +37,7 @@ go build -0 smartass
 
 ### path setting
 ```
-export PATH=$PATH:/your/path/smart-ass
+export PATH=$PATH:/your/smartass/path
 ```
 
 ## run
